@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formula app</title>
+		<p>Made By S. Krithick</p>
+	</head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<body onload="document.body.style.opacity='1'">
+		<h1 id="heading" class="first">Formula app</h1>
+			<label for="formula">Choose a formula:</label>
+			<select name="formula" id="formula">
+				<option value="(a-b)^2">(a-b)^2</option>
+				<option value="(a+b)^2">(a+b)^2</option>
+				<option value="a^2-b^2">a^2-b^2</option>
+			</select>
+			<br>
+			<br>
+			<label for="num1">First number:</label>
+			<input type="text" id="num1" name="number1" placeholder="Enter number one"> <br>
+			<br>
+			<label for="num2">Second number:</label>
+			<input type="text" id="num2" name="number2" placeholder="Enter number two"> <br>
+			<br>
+			<div class="">
+			<a href="./solution.html"><button onclick="fn1()" class="buttons btn-hover color-1">Submit</button></a>
+			<button onclick="darkmode()" class="button2" class="buttons btn-hover color-1">Dark mode</button>
+			</div>
+		</div>
+		
+	</body>
+</html>
